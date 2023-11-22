@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, paper and scissors game</title>
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+    <div class="container">
+    <h2>Let's play with me in Rock, paper or scissors game!</h2>
+<form id="gameForm">
+    <label><b>Username</b></label>
+    <input id="userName" type="text" placeholder="Enter your name" required>
+    <br />
+    <label><b>Make your choice</b></label>
+    <input type="text" placeholder="Rock, paper or scissors" id="userChoice" required>
+</form>
+<br />
+    <button id="playButton" onclick="play()">Let's play</button>
+    <br />
+    <h2 id="gameResult"></h2>
+    <p id="compChoice"></p>
+    <p id="roundsPlayed"></p>
+    <p id="userWins"></p>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
